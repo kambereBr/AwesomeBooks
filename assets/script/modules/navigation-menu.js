@@ -1,5 +1,5 @@
 /* SPA manipulation section */
-function loadContent(id) {
+const loadContent = (id) => {
   const bookList = document.querySelector('.book-item-wrapper');
   const bookCreation = document.querySelector('.addbook-section');
   const contact = document.querySelector('.contact-section');
@@ -33,6 +33,6 @@ function loadContent(id) {
     addMenu.classList.remove('active');
     contactMenu.classList.toggle('active');
   }
-}
+};
 
 export default loadContent;
