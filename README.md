@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <div align="center">
 
   <h1><b>awesomeBooks</b></h1>
@@ -72,15 +73,6 @@
 - **[Use medium-fidelity warframe to build the project]**
 - **[Responsive design for multiple screens]**
 - **[Use of javascript to change the content of the page]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
-
-<!-- > Add a link to your deployed project. -->
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,6 +183,6 @@ I would like to thank Microverse for giving us this opportunity of learning.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
