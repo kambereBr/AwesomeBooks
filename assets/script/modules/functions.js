@@ -1,5 +1,7 @@
+import { DateTime } from '../../../node_modules/luxon/src/luxon.js';
+
 function myTimer() {
-  const date = new Date().toUTCString();
+  const date = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
   document.querySelector('.date').innerHTML = date;
 }
 
