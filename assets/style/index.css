@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nav-bar style */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 4px solid black;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+.nav-bar-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-bar-menu ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.nav-bar-menu li:nth-child(2) {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav-bar-menu ul li :hover {
+  font-weight: bold;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-bar-menu ul {
+  display: flex;
+}
+
+.date-container {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.date {
+  float: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 80%;
+}
+
+.addbook-section {
+  margin-top: 2rem;
+}
+
+.subtitle-addbook {
+  text-align: center;
+  font-size: 2rem;
+}
+
+form input,
+.add-btn {
+  margin: 0.7rem;
+  padding: 0.2rem;
+}
+
+form input {
+  height: 30px;
+  width: 300px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  float: right;
+}
+
+.book-item-wrapper {
+  border: 2px solid black;
+  width: 70%;
+  height: 70%;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+article {
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+}
+
+.book-item-wrapper article:nth-child(odd) {
+  background-color: #c4c4c4;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-section ul {
+  padding-left: 2rem;
+}
+
+.addbook-section,
+.contact-section {
+  display: none;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 1.5rem;
+  width: 98%;
+  position: fixed;
+  bottom: 0;
+  margin-left: 1%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
